@@ -9,7 +9,11 @@ public class Mirror {
     }
 
     public static void border() {
-        System.out.println("border");
+        System.out.print("#");
+        for (int i = 1; i <= 16; i++) {
+            System.out.print("=");
+        }
+        System.out.println("#");
     }
 
     public static void topHalf() {
